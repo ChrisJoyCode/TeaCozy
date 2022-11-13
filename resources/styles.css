@@ -1,0 +1,157 @@
+body {
+    font-family: helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    
+    
+}
+Header {
+    position:fixed;
+    display: inline;
+    width: 1300px;
+    text-align: left;
+    z-index: 2;
+
+}
+header img {
+    height: 50px;
+}
+
+div.logo {
+    float: left;
+}
+div.nav {
+    float: right;
+    
+    
+}
+
+.nav li {
+    display: inline;
+    text-decoration: underline;
+    margin: 0px 8px;
+}
+
+main {
+    position:relative;
+    top: 50px;
+    text-align: center;
+}
+div.mission-parent {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1ozog3a*_ga*NzYyMzU4ODQ5OC4xNjY2NDcwODg1*_ga_3LRZM6TM9L*MTY2ODE2OTgxNS41MS4xLjE2NjgxNzE2NTkuNTcuMC4w");
+     width: 1200px;
+    height: 700px;
+    margin: 0px 50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+div.mission {
+    background-color: black;
+    line-height: .5;
+    width: 1200px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+div.TeaOfTheMonthParent {
+    
+    color: white;
+    width: 1000px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 150px;
+}
+.TeaOfTheMonthParent img {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+}
+div.tea-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    background-color: transparent;
+}
+
+
+
+
+
+
+
+
+
+div.locations {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1805zky*_ga*NzYyMzU4ODQ5OC4xNjY2NDcwODg1*_ga_3LRZM6TM9L*MTY2ODE4MTUyMy41Mi4wLjE2NjgxODE1MjMuNjAuMC4w);
+    width: 1200px;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    
+    
+    
+
+}
+div.title {
+    margin-bottom: 0px ;
+    
+   
+}
+
+div.locations-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    background-color: transparent;
+}
+
+
+
+
+div.address {
+    color: seashell;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    display:inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: -10px 20px;
+    opacity: .5;
+   
+    
+
+}
+
+div.contact {
+    width: 1300px;
+    text-align: center;
+    padding-top: 20px;
+}
